@@ -1,7 +1,13 @@
+using ale_movi_mvc.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<MoviDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("MoviAleDbcontext")));
 
 var app = builder.Build();
 
