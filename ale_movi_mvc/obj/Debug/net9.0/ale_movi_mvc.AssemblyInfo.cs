@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ale_movi_mvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49a8a3d78ce6c7b3cd4349cecc0655f51857b106")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f1fd34df2e3ab9ad5e675e43c191120c2814021")]
 [assembly: System.Reflection.AssemblyProductAttribute("ale_movi_mvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ale_movi_mvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

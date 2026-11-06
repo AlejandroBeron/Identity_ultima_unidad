@@ -1,6 +1,6 @@
 ﻿namespace ale_movi_mvc.Models
 {
-    public class Usuario
+    public class Usuario : Identity
     {
         public string Nombre { get; set; }
 
